@@ -1,38 +1,101 @@
-基于jekyll博客应用主题
-===
+# Abstract
 
-pithy是一款适用于jekyll的博客应用主题，基于bootstrap前端框架开发。本着简约的视觉效果设计，目的是希望博客的浏览者能够更多的看到博客内容。
+This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
 
-完成pithy的同时，我也搭建了自己的博客:
+You can visit [here](http://gaohaoyang.github.io) to see this blog.
 
-地址: [http://www.guovz.com](http://www.guovz.com)
+这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
 
-使用说明
-===
+博客访问地址：[点击这里](http://gaohaoyang.github.io)
 
-本主题是自由，免费，开源的，你可以克隆为新的仓库作为自己的博客。当然，在克隆仓库时为本主题加颗星，在使用时注明power by pithy，那将是对我最大的支持和鼓励。
+**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-主题效果
-===
-- 首页
-- 
-![首页](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-index.jpg)
+---
 
-- 列表
-- 
-![列表](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-list.jpg)
+# Update
 
-- 文章
-- 
-![文章](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-post.jpg)
+## 2015/05/25
 
-反馈
-===
+* Fix bug of footer jumping
+* Add response interactive of demo page
 
-在你浏览或使用本主题时，发现问题或者是有好的建议，希望能够在这里给予反馈。
+---
 
-[New Issue](https://github.com/guovz/pithy/issues/new)
+# About Theme
 
-License
-===
-[MIT License](https://github.com/guovz/pithy/blob/gh-pages/LICENSE.md)
+This is a blog theme based on jekyll. You can use on your own blog. Before you use it, please click a star on [this respository](https://github.com/Gaohaoyang/gaohaoyang.github.io/). You will encourage me to do more great things!
+
+## Sample
+
+### static view
+
+![blog sample](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blog sample.png)
+
+### active view
+
+![blog-blogShow1](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blogShow1.gif)
+
+![blog-blogShow2](http://7q5cdt.com1.z0.glb.clouddn.com/blog-blogShow2.gif)
+
+## Attention
+
+When you use this theme. Please make sure to add the author's info, like this: Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang) or Designed by [Gaohaoyang](https://github.com/Gaohaoyang) 
+
+While you should delete statistics code in _includes/head.html.
+
+like this:
+
+```javascript
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?**************************";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+```
+
+And you should change the duoshuo comment code in _layouts/default.html.
+
+like this:
+
+```javascript
+var duoshuoQuery = {short_name:"******"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})(); 
+``` 
+
+---
+
+Thank you.
+Here is my blog: [HyG](http://gaohaoyang.github.io)
+
+---
+
+LICENSE
+
+[MIT License](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/LICENSE.md)
+
+<!--
+
+## 被引用信息
+
+使用了我的模板并写明来源的人：   
+
+* [dreamholy](http://dreamholy.github.io/)
+
+没有注明来源的人：
+
+* [yangshuailing](http://yangshuailing.github.io/com/)
+* [huapu728](http://huapu728.github.io/)
+* [greatbuger](http://greatbuger.github.io/) 
+
+
+-->
+
+
