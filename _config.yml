@@ -1,26 +1,34 @@
-# Site settings
-title: HyG
-email: gaohaoyang126@126.com
-description: 浩阳的博客 前端爱好者
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
-
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  Gaohaoyang
 permalink: /:year/:month/:day/:title/
 
-# Build settings
-markdown: kramdown
+# 站点设置
+title: "Guovz"
+email: pzhuwjl@qq.com
+description: "王继林的个人博客"
+keywords: "Guovz"
 
+# 用户信息设置
+weibo_username: Guovz
+github_username: guovz
+
+# Markdown设置
+kramdown:
+  input:  GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers:  nil
+
+
+
+# 地址设置
+baseurl: ""
+url: "http://www.guovz.com"
+#url: "http://127.0.0.1:4000"
+
+# 分页设置
 paginate: 10
-paginate_path: "page:num"
+paginate_path: "page/:num"
 
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+#scss设置
+sass:
+    sass_dir: /assets/stylesheet
+    style: :compressed
