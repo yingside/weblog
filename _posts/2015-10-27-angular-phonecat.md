@@ -6,6 +6,7 @@ categories: [angularJS]
 author: Yingside
 excerpt: "angularJS官方提供了一个官方案例给大家进行循序渐进的学习,但是如果之前没有接触过node.js以及git的同学这个案例拿着也无从下手...这里就介绍一下怎么打开这个案例吧"
 ---
+
 # 官方案例-angular-phonecat
 angularJS官方提供了一个官方案例给大家进行循序渐进的学习,但是如果之前没有接触过node.js以及git的同学这个案例拿着也无从下手...这里就介绍一下怎么打开这个案例吧
 **准备工作:**

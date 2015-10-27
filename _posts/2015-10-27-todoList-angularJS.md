@@ -6,6 +6,7 @@ categories: [angularJS]
 author: Yingside
 excerpt: "为了更加说明AngularJS关心数据的问题,我们来看一下这个TodoList的列子。通过转换思考方式一步一步的来实现。"
 ---
+
 # TodoList任务列表
 为了更加说明AngularJS关心数据的问题,我们来看一下这个TodoList的列子。通过转换思考方式一步一步的来实现。
 

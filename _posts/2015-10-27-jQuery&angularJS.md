@@ -6,6 +6,7 @@ categories: [angularJS]
 author: Yingside
 excerpt: "通过几个例子分别通过jQuery和AngularJS来达到效果。主要通过思维转换来进一步了解AngularJS框架设计背后的思想"
 ---
+
 # 通过jQuery的比较来认识AngularJS
 
 这一章主要是通过几个例子分别通过jQuery和AngularJS来达到效果。主要通过思维转换来进一步了解AngularJS框架设计背后的思想。
