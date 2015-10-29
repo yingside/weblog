@@ -2,7 +2,7 @@
 layout: post
 title: javascript数据类型
 tags:  [javascript,js]
-categories: [javascript]
+categories: [javascript基础解惑]
 author: Yingside
 excerpt: "javascript数据类型是js里面最基础的概念之一,看起来很简单,很多有一点js基础或者学过其他程序的人经常把这里忽略,但是其实就是js语法里面大坑之一,是javascript里最应该细读的地方之一"
 ---

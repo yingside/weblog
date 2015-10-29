@@ -2,7 +2,7 @@
 layout: post
 title: javascript数据类型转换
 tags:  [javascript,js]
-categories: [javascript]
+categories: [javascript基础解惑]
 author: Yingside
 excerpt: "这一节是对javascript数据类型的补充说明,很多面试时大家遇到的稀奇古怪的笔试题其实都是出自数据类型的转换问题"
 ---

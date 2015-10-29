@@ -2,7 +2,7 @@
 layout: post
 title: Array数组基础
 tags:  [javascript,js,Array]
-categories: [javascript]
+categories: [javascript基础解惑]
 author: Yingside
 excerpt: "javascript数组基础,数组的定义以及数组的一些基本概念"
 ---
