@@ -15,9 +15,8 @@
             } else {
                 elements.push(element);
             }
-
-            return elements;
         };
+        return elements;
     };
     window['YG']['$'] = $;
 

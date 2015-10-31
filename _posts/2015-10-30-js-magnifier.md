@@ -161,10 +161,9 @@ excerpt: "这一章主要承接上一章的内容,将函数封装为自己可以
                 return element;
             } else {
                 elements.push(element);
-            }
-
-            return elements;
+            }  
         };
+        return elements;
     };
     window['YG']['$'] = $;
 
@@ -458,4 +457,4 @@ ok,上面的都是我们这篇文章会用到的函数库
 
 ```
 
-如果还不是太清楚的,可以点击[这里](http://download.csdn.net/detail/ying422/9229067)下载源码自行运行研究
+如果还不是太清楚的,可以点击[这里](http://download.csdn.net/detail/ying422/9229125)下载源码自行运行研究
