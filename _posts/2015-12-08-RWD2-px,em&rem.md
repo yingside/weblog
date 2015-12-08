@@ -130,13 +130,13 @@ h1 { font-size: 2.4rem;/*2.4 × 10px = 24px*/}
 			height: 3rem;
 			line-height: 3rem;
 			font-size: 1.8rem;
-			text-dec   oration: none;
+			text-decoration: none;
 		}
 	</style>
 </head>
 <body>
 	<div>
-		<a href="#">sp点击</a>
+		<a href="#"><span>点击</span></a>
 	</div>
 </body>
 </html>
@@ -171,12 +171,15 @@ h1 { font-size: 2.4rem;/*2.4 × 10px = 24px*/}
 修复的办法可以使用下面的属性：
 
 ```css
+/*-webkit-text-size-adjust: none;*/
 -webkit-text-size-adjust: 100%;
 ```
-但是不幸得是，这个css属性在桌面版的chrome浏览器上并不支持，只有移动端的才支持此属性。所以要想在PC上做测试，使用这个属性是不可能的。当然还有人说使用scale属性，我觉得用这个就走远了，这里还是给大家列出来吧，但是不建议使用。很简单，启用的缩放...肯定又会有其他的坑要填。
+但是不幸得是，这个css属性在桌面版的chrome浏览器上并不支持，只有移动端的才支持此属性。
+(上面注释的部分是让chrome浏览器不会自动调整字体，但是会屏蔽chrome浏览器调整大小，就是使用鼠标滚轮将浏览器字体方法或缩小。这个属性在高版本的chrome浏览器中已经被废除了，但是看很多现在的主流手机页面还在使用这个属性，列出来大家知道混了脸熟...)
+所以要想在PC上做测试，使用这个属性是不可能的。当然还有人说使用scale属性，我觉得用这个就走远了，这里还是给大家列出来吧，但是不建议使用。很简单，启用的缩放...肯定又会有其他的坑要填。
 
 ```
-.chrome_adjust {
+.chrome_font_adjust {
     font-size: 10px;
     -webkit-transform: scale(0.75);
     -o-transform: scale(1);    //针对能识别-webkit的opera browser设置
